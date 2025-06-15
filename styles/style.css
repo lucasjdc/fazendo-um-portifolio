@@ -38,7 +38,6 @@ body{
     font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;
-
 }
 
 .apresentacao {
@@ -46,6 +45,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -82,7 +82,6 @@ body{
     font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 1.5rem;
-
 }
 
 .apresentacao__links__navegacao {    
@@ -117,4 +116,10 @@ body{
     font-family: var(--fonte-texto);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
