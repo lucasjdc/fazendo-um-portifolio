@@ -46,6 +46,7 @@ body{
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+    font-weight: 400;
 }
 
 .titulo-destaque{
