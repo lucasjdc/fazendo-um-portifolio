@@ -11,6 +11,23 @@ body{
     color: #F6F6F6;
 }
 
+.cabecalho {
+    color: #22D4FD;
+    font-size: 16px;
+    padding: 5% 15%;
+
+}
+
+.cabecalho__menu {
+    
+
+}
+
+.cabecalho__menu__link {
+    
+
+}
+
 .titulo-destaque{
     color: #22D4FD;
 }
@@ -82,4 +99,3 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
-
