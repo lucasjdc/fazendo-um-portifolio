@@ -10,3 +10,23 @@ body{
 .titulo-destaque{
     color: #22D4FD;
 }
+
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-size: 'Montserrat', 'sans-serif';
+}
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_links_link {
+    background-color: #22D4FD;
+    width: 280;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+}
