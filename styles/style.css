@@ -18,15 +18,14 @@ body{
 .cabecalho__menu {
     display: flex;
     gap: 80px;
-    
-
 }
 
 .cabecalho__menu__link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD; 
+    color: #22D4FD;
+    text-decoration: none;
 
 }
 
